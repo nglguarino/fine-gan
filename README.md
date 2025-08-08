@@ -20,7 +20,7 @@ fine-detail synthesis.
 | **Masked MSE** | `0.0147` |
 | **Masked MAE** | `0.1342` |
 
-![CNN Coarse Inpainting](./assets/cnn_inpainting.png)
+![CNN Coarse Inpainting](results/cnn_inpainting.png)
 
 ---
 
