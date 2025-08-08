@@ -1,2 +1,50 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Python files
+*.py text
+*.pyi text
+*.pyx text
+
+# Jupyter notebooks - better diff handling
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+
+# Model and data files - use Git LFS (Large File Storage)
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pickle filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.hdf5 filter=lfs diff=lfs merge=lfs -text
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+
+# Dataset files
+*.csv text
+*.tsv text
+*.json text
+*.xml text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+
+# Images - treat as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+
+# Documentation
+*.md text
+*.txt text
+*.tex text
+README* text
+LICENSE text
+
+# Config files
+*.yaml text
+*.yml text
+*.toml text
+*.ini text
+*.cfg text
+requirements*.txt text
