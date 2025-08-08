@@ -5,7 +5,7 @@ fine-detail synthesis.
 
 **Authors:** Angelo Guarino, Lisa Milan, Zeynep Tutar
 
-###  📊 CNN Inpainting Evaluation Results
+###  📊 CNN Inpainting Evaluation Results (2.5% Mask)
 
 | Metric | Value |
 | :--- | :--- |
