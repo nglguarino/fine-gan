@@ -7,14 +7,14 @@ fine-detail synthesis.
 
 ###  📊 CNN Inpainting Evaluation Results (2.5% Mask)
 
-| Metric | Value |
-| :--- | :--- |
-| **PSNR** | `39.14 ± 1.69 dB` |
-| **SSIM** | `0.9898 ± 0.0029` |
-| **LPIPS** | `0.0099 ± 0.0026` |
-| **FID** | `4.64` |
-| **Masked MSE** | `0.0147` |
-| **Masked MAE** | `0.1342` |
+| Metric          | Value             |
+|:----------------|:------------------|
+| **PSNR**        | `39.14 ± 1.69 dB` |
+| **SSIM**        | `0.9898 ± 0.0029` |
+| **LPIPS**       | `0.0099 ± 0.0026` |
+| **FID**         | `4.64`            |
+| **Masked MSE**  | `0.0147`          |
+| **Masked MAE**  | `0.1342`          |
 
 ![CNN Coarse Inpainting](results/cnn_inpainting.png)
 
