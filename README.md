@@ -1,10 +1,9 @@
 # FineGAN: Frequency-Trained CNN with Adversarial Refinement for Inpainting
 
-### Vision and Cognitive Systems
-
-* **Authors:** Angelo Guarino, Lisa Milan, Zeynep Tutar
-* **Project Focus:** Novel two-stage CNN-GAN architecture for image inpainting, separating frequency-aware coarse reconstruction from adversarial
+Novel two-stage CNN-GAN architecture for image inpainting, separating frequency-aware coarse reconstruction from adversarial
 fine-detail synthesis.
+
+**Authors:** Angelo Guarino, Lisa Milan, Zeynep Tutar
 
 ###  📊 CNN Inpainting Evaluation Results
 
