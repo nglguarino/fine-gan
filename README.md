@@ -1,10 +1,7 @@
 # FineGAN: Frequency-Trained CNN with Adversarial Refinement for Inpainting
 
-### Vision and Cognitive Systems: Final Project
+### Vision and Cognitive Systems
 
-* **Institution:** University of Padua (UNIPD)
-* **Course:** Vision and Cognitive Systems
-* **Academic Year:** 2024-2025
 * **Authors:** Angelo Guarino, Lisa Milan, Zeynep Tutar
 * **Project Focus:** Novel two-stage CNN-GAN architecture for image inpainting, separating frequency-aware coarse reconstruction from adversarial
 fine-detail synthesis.
